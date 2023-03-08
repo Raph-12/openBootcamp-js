@@ -41,15 +41,21 @@ const movil = {
 console.log(movil.tarjeta.gb)
 
 //fechas se puede usar librerias de apoyo como moment.js 
-const ahora = new Date();
+const ahora = new Date('12/12/1992');
 console.log(ahora);
 
-const fecha_milis = new Date(10)
-console.log(fecha_milis)
 
 const dia = ahora.getDate()
 console.log(dia)
-const mes = ahora.getMonth()
+const mes = (ahora.getMonth(11)+1)
 console.log(mes)
 const year = ahora.getFullYear()
 console.log(year)
+
+console.log(dia,mes,year)
+
+const entiredate = new Date('12/12/1992')
+const justDay = entiredate.getDay()
+console.log(justDay)
+const justMonth = (ahora.getMonth(11)+1)
+const justYear = ahora.getFullYear()
