@@ -81,4 +81,3 @@ do {
     console.log('Estoy en el do while')
 } while (i < maz);
 
-//AMbito de un bucle
