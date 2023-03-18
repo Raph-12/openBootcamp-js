@@ -16,7 +16,7 @@ console.log(dayOfBirth)
 
 // Una variable que contenga el mes de tu nacimiento (recuerda que Enero es mes 0)
 
-const monthOfBirth = dob.getMonth()
+const monthOfBirth = dob.getMonth() +1
 console.log(monthOfBirth)
 
 // Una variable que contenga el año de tu nacimiento (con 4 dígitos)
