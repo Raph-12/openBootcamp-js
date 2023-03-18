@@ -15,7 +15,7 @@ console.log(info[propAge]);
 // Una lista que contenga el objeto con tus datos personales y un nuevo objeto con los datos personales de tus dos mejores amig@s
 
 const meAndFriends = [
-    {info},
+    {...info},
     {
         name: 'Josue',
         lastname: 'Mata',
