@@ -6,7 +6,7 @@ const permessage = sum =>{
     }
 }
 
-const numb = 'h';
+const numb = 4;
 
 try {
     console.log('Running properly')
@@ -15,5 +15,5 @@ try {
 } catch (e) {
     logger.error('Este mensaje es para decirle que esta incorrecto')
 }finally{
-    console.log('Siempre me ejecuto')
+    logger.info('Siempre me ejecuto')
 }
