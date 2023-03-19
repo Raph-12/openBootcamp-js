@@ -18,11 +18,7 @@ saludar()
 function* generarindex(){
     let index = 0
     while(true){
-        index++
-        if (index === index % 0){
-            return index
-        }
-        yield index
+        yield index += 2
     }
 }
 const indexGenerator = generarindex()
